@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './images.png'
 import {reviews} from './data'
-import { properties } from './property'
+
 
 const App :React.FC = () =>  {
 
