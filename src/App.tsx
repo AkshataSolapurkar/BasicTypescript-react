@@ -8,7 +8,7 @@ const App :React.FC = () =>  {
   const [reviewTotal, setReviewTotal] = React.useState(0);
   const[lastreviwe,setlastreviwe]=React.useState("");
   const[loyalty,setloyalty]=React.useState<boolean>()
-  const[propertieshere,setproperties]=React.useState([
+  const[propertieshere]=React.useState([
     {
       image: 'src/columbia.jpg',
       title: 'Colombian Shack',
